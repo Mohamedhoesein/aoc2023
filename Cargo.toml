@@ -3,6 +3,14 @@ name = "aos2023"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "1a"
+path = "src/1/a.rs"
+
+[[bin]]
+name = "1b"
+path = "src/1/b.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
