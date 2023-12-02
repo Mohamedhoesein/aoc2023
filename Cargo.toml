@@ -11,6 +11,15 @@ path = "src/1/a.rs"
 name = "1b"
 path = "src/1/b.rs"
 
+[[bin]]
+name = "2a"
+path = "src/2/a.rs"
+
+[[bin]]
+name = "2b"
+path = "src/2/b.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+itertools = "0.12.0"
