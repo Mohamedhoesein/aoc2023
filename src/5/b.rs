@@ -53,7 +53,6 @@ fn main() {
         }
     }
     let mut low_plot: i128 = i128::MAX;
-    let mut handle: Vec<std::thread::JoinHandle<()>> = Vec::new();
     for i in (0..seeds.len()).step_by(2) {
         for s in seeds[i]..seeds[i] + seeds[i + 1] {
             let plot = convert(convert(convert(convert(convert(convert(convert(s, &seed), &soil), &fertilizer), &water), &light), &temp), &humidity);

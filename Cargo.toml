@@ -43,6 +43,14 @@ path = "src/5/a.rs"
 name = "5b"
 path = "src/5/b.rs"
 
+[[bin]]
+name = "6a"
+path = "src/6/a.rs"
+
+[[bin]]
+name = "6b"
+path = "src/6/b.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
