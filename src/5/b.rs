@@ -1,6 +1,5 @@
 use std::env;
 use std::fs;
-use std::sync::Arc;
 
 fn convert(key: i128, map: &Vec<(i128, i128, i128)>) -> i128 {
     for (k, v, p) in map {

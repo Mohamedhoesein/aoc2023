@@ -59,8 +59,17 @@ path = "src/7/a.rs"
 name = "7b"
 path = "src/7/b.rs"
 
+[[bin]]
+name = "8a"
+path = "src/8/a.rs"
+
+[[bin]]
+name = "8b"
+path = "src/8/b.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 array2d = "0.3.0"
 itertools = "0.12.0"
+num = "0.4.1"
